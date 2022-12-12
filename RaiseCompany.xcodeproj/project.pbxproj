@@ -15,6 +15,9 @@
 		AF3ED71C293B800300D0CD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3ED71A293B800300D0CD96 /* LaunchScreen.storyboard */; };
 		AF3ED72A293BC95100D0CD96 /* Establishment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ED729293BC95100D0CD96 /* Establishment.swift */; };
 		AF3ED72C293BCBB200D0CD96 /* EstablishmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ED72B293BCBB200D0CD96 /* EstablishmentRow.swift */; };
+		AF7A61AB294166F800562FE4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A61AA294166F800562FE4 /* DataManager.swift */; };
+		AF7A61AD29416EA600562FE4 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A61AC29416EA600562FE4 /* EmployeesViewController.swift */; };
+		AFBB9DD129477D5F00652543 /* EstablishmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB9DD029477D5F00652543 /* EstablishmentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		AF3ED71D293B800300D0CD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF3ED729293BC95100D0CD96 /* Establishment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Establishment.swift; path = ../Establishment.swift; sourceTree = "<group>"; };
 		AF3ED72B293BCBB200D0CD96 /* EstablishmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstablishmentRow.swift; sourceTree = "<group>"; };
+		AF7A61AA294166F800562FE4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = ../DataManager.swift; sourceTree = "<group>"; };
+		AF7A61AC29416EA600562FE4 /* EmployeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
+		AFBB9DD029477D5F00652543 /* EstablishmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstablishmentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 		AF3ED70E293B800300D0CD96 /* RaiseCompany */ = {
 			isa = PBXGroup;
 			children = (
+				AF7A61AC29416EA600562FE4 /* EmployeesViewController.swift */,
+				AFBB9DD029477D5F00652543 /* EstablishmentsViewController.swift */,
+				AF7A61AA294166F800562FE4 /* DataManager.swift */,
 				AF3ED72B293BCBB200D0CD96 /* EstablishmentRow.swift */,
 				AF3ED729293BC95100D0CD96 /* Establishment.swift */,
 				AF3ED70F293B800300D0CD96 /* AppDelegate.swift */,
@@ -145,7 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3ED72C293BCBB200D0CD96 /* EstablishmentRow.swift in Sources */,
+				AF7A61AD29416EA600562FE4 /* EmployeesViewController.swift in Sources */,
+				AFBB9DD129477D5F00652543 /* EstablishmentsViewController.swift in Sources */,
 				AF3ED714293B800300D0CD96 /* HomeViewController.swift in Sources */,
+				AF7A61AB294166F800562FE4 /* DataManager.swift in Sources */,
 				AF3ED72A293BC95100D0CD96 /* Establishment.swift in Sources */,
 				AF3ED710293B800300D0CD96 /* AppDelegate.swift in Sources */,
 				AF3ED712293B800300D0CD96 /* SceneDelegate.swift in Sources */,
