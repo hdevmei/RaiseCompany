@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ng5-ux-e5M">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ng5-ux-e5M">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -18,16 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IlQ-yp-E3a">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="169"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="188"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Company" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiC-g5-Yab">
-                                        <rect key="frame" x="20" y="50" width="205.5" height="42"/>
+                                        <rect key="frame" x="20" y="70" width="205.5" height="42"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                         <color key="textColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvY-lv-jlu">
-                                        <rect key="frame" x="362" y="55.5" width="43.5" height="31"/>
+                                        <rect key="frame" x="359" y="74" width="46.5" height="34"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -38,7 +39,7 @@
                                         </connections>
                                     </button>
                                     <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" text="" placeholder="Search" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Av-oo-qUx">
-                                        <rect key="frame" x="0.0" y="102" width="414" height="57"/>
+                                        <rect key="frame" x="0.0" y="122" width="414" height="56"/>
                                         <color key="barTintColor" red="0.0039215688589999999" green="0.15686275059999999" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <scopeButtonTitles>
@@ -49,19 +50,19 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0039215688589999999" green="0.15686275059999999" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstItem="oiC-g5-Yab" firstAttribute="top" secondItem="IlQ-yp-E3a" secondAttribute="top" constant="50" id="1I8-FE-Ty9"/>
+                                    <constraint firstItem="oiC-g5-Yab" firstAttribute="top" secondItem="IlQ-yp-E3a" secondAttribute="top" constant="70" id="1I8-FE-Ty9"/>
                                     <constraint firstItem="oiC-g5-Yab" firstAttribute="leading" secondItem="IlQ-yp-E3a" secondAttribute="leading" constant="20" symbolic="YES" id="25c-jg-jrF"/>
                                     <constraint firstItem="4Av-oo-qUx" firstAttribute="top" secondItem="oiC-g5-Yab" secondAttribute="bottom" constant="10" id="Ghc-if-IeH"/>
                                     <constraint firstAttribute="trailing" secondItem="4Av-oo-qUx" secondAttribute="trailing" id="YEu-GS-jKC"/>
-                                    <constraint firstAttribute="width" secondItem="IlQ-yp-E3a" secondAttribute="height" multiplier="414:169" id="bFR-uG-cd1"/>
                                     <constraint firstAttribute="trailing" secondItem="wvY-lv-jlu" secondAttribute="trailing" constant="8.5" id="fRy-Jw-NzW"/>
+                                    <constraint firstAttribute="width" secondItem="IlQ-yp-E3a" secondAttribute="height" multiplier="207:94" id="hQv-te-Gfu"/>
                                     <constraint firstItem="4Av-oo-qUx" firstAttribute="leading" secondItem="IlQ-yp-E3a" secondAttribute="leading" id="wCA-yg-YBm"/>
                                     <constraint firstAttribute="bottom" secondItem="4Av-oo-qUx" secondAttribute="bottom" constant="10" id="xFB-AT-yJj"/>
                                     <constraint firstItem="wvY-lv-jlu" firstAttribute="centerY" secondItem="oiC-g5-Yab" secondAttribute="centerY" id="zb4-mN-FLA"/>
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j3y-vJ-9Td">
-                                <rect key="frame" x="0.0" y="218" width="414" height="595"/>
+                                <rect key="frame" x="0.0" y="237" width="414" height="595"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="595" id="XOR-wq-jmk"/>
                                 </constraints>
@@ -70,7 +71,7 @@
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7en-pn-bAR">
-                                <rect key="frame" x="0.0" y="218" width="414" height="595"/>
+                                <rect key="frame" x="0.0" y="237" width="414" height="595"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="595" id="IDr-Ub-Tz3"/>
                                 </constraints>
@@ -79,7 +80,7 @@
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XCt-Hm-pBv">
-                                <rect key="frame" x="0.0" y="218" width="414" height="595"/>
+                                <rect key="frame" x="0.0" y="237" width="414" height="595"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="595" id="3Nh-VD-Um4"/>
                                 </constraints>
@@ -88,7 +89,7 @@
                                 </connections>
                             </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bbA-lM-Tfp">
-                                <rect key="frame" x="10" y="179" width="394" height="32"/>
+                                <rect key="frame" x="10" y="198" width="394" height="32"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <segments>
                                     <segment title="Establishments"/>
@@ -193,28 +194,31 @@
             </objects>
             <point key="canvasLocation" x="3" y="916"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Establishment View Controller-->
         <scene sceneID="zOA-cO-uQO">
             <objects>
-                <viewController id="COg-5L-PY0" sceneMemberID="viewController">
+                <viewController id="COg-5L-PY0" customClass="AddEstablishmentViewController" customModule="RaiseCompany" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AcK-ji-K3d">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hl-Gq-hxc">
-                                <rect key="frame" x="15" y="30" width="68.5" height="31"/>
+                                <rect key="frame" x="15" y="30" width="76.5" height="34.5"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelButton:" destination="COg-5L-PY0" eventType="touchUpInside" id="Q93-gG-NTn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add establishment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bf-md-vVV">
-                                <rect key="frame" x="130" y="35" width="154.5" height="21"/>
+                                <rect key="frame" x="130" y="37" width="154.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O6T-Cs-hUY">
-                                <rect key="frame" x="341" y="31" width="53" height="29.5"/>
+                                <rect key="frame" x="341" y="32.5" width="53" height="29.5"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button">
@@ -254,32 +258,34 @@
             </objects>
             <point key="canvasLocation" x="-1228.985507246377" y="-1763.1696428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Employee View Controller-->
         <scene sceneID="lD5-39-8J7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rIj-b1-GdT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="Jth-yb-fbp" sceneMemberID="viewController">
+                <viewController id="Jth-yb-fbp" customClass="AddEmployeeViewController" customModule="RaiseCompany" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L2L-pq-PXQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add employee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isa-yR-QIq">
-                                <rect key="frame" x="151.5" y="35" width="111.5" height="21"/>
+                                <rect key="frame" x="151.5" y="37" width="111.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsE-TD-tF2">
-                                <rect key="frame" x="338.5" y="30" width="55.5" height="31"/>
+                                <rect key="frame" x="333" y="30" width="61" height="34.5"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Save"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwG-Bg-pIf">
-                                <rect key="frame" x="15" y="30" width="68.5" height="31"/>
+                                <rect key="frame" x="15" y="30" width="76.5" height="34.5"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelButton:" destination="Jth-yb-fbp" eventType="touchUpInside" id="GDd-Vi-aFn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GRE-yp-Ilr"/>
@@ -295,31 +301,35 @@
                     </view>
                     <navigationItem key="navigationItem" id="dAH-oJ-KpI"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rIj-b1-GdT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-581" y="-1763"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Department View Controller-->
         <scene sceneID="kyi-qR-5sV">
             <objects>
-                <viewController id="CX0-Q3-iH5" sceneMemberID="viewController">
+                <viewController id="CX0-Q3-iH5" customClass="AddDepartmentViewController" customModule="RaiseCompany" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czl-hu-Fyc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mK8-KD-s9G">
-                                <rect key="frame" x="15" y="30" width="68.5" height="31"/>
+                                <rect key="frame" x="15" y="30" width="76.5" height="34.5"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelButton:" destination="CX0-Q3-iH5" eventType="touchUpInside" id="KFy-3h-K79"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Department" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxs-AL-0RR">
-                                <rect key="frame" x="142" y="35" width="130" height="21"/>
+                                <rect key="frame" x="142" y="37" width="130" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yb0-3S-JMN">
-                                <rect key="frame" x="338.5" y="30" width="55.5" height="31"/>
+                                <rect key="frame" x="333" y="30" width="61" height="34.5"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Save"/>
@@ -348,6 +358,7 @@
                     <view key="view" contentMode="scaleToFill" id="TqX-i6-waJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="595"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0Zo-2K-Z82"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
                 </viewController>
@@ -362,6 +373,7 @@
                     <view key="view" contentMode="scaleToFill" id="poj-1V-int">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="595"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="R8u-Li-Nfc"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
                 </viewController>
@@ -376,6 +388,7 @@
                     <view key="view" contentMode="scaleToFill" id="JQl-TF-yc6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="595"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XC2-9y-laB"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
                 </viewController>
@@ -385,8 +398,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="building.2.fill" catalog="system" width="128" height="106"/>
-        <image name="message.fill" catalog="system" width="128" height="113"/>
+        <image name="building.2.fill" catalog="system" width="128" height="108"/>
+        <image name="message.fill" catalog="system" width="128" height="114"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBrownColor">
@@ -409,9 +422,6 @@
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tertiarySystemGroupedBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
