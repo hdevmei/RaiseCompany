@@ -9,6 +9,8 @@ class EstablishmentsViewController: UIViewController, UITableViewDataSource, UIT
     }
     
     
+    
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let establishmentCell : EstablishmentRow = tableView.dequeueReusableCell(withIdentifier: "EstablishmentCell", for: indexPath) as! EstablishmentRow
@@ -18,7 +20,11 @@ class EstablishmentsViewController: UIViewController, UITableViewDataSource, UIT
         
     
         establishmentCell.imageEstablishmnet.image = UIImage(named: establishment.image)
+        establishmentCell.imageEstablishmnet.layer.cornerRadius = 10
+
+        establishmentCell.location.text = establishment.location
         
+
         
         return establishmentCell
     }

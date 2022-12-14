@@ -9,7 +9,6 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var prueba: UIButton!
     
-//    PREGUNTAR SOBRE SI ES NECESARIO USAR CURRENT TABLE
     
     @IBAction func pruebaBoton(_ sender: UIButton) {
         if currentTable == 0 {
@@ -20,7 +19,6 @@ class HomeViewController: UIViewController {
             performSegue(withIdentifier: "goToAddDepartment", sender: nil)
         }
     }
-    
     
     
     override func viewDidLoad(){
@@ -40,8 +38,6 @@ class HomeViewController: UIViewController {
     
     @IBAction func SegmentedControl(_ sender: UISegmentedControl) {
         
-        
-        
         if sender.selectedSegmentIndex == 0 {
             establishmentsView.isHidden = false
             employeesView.isHidden = true
@@ -58,7 +54,6 @@ class HomeViewController: UIViewController {
             myProfileView.isHidden = false
             currentTable = 2
         }
-        
     }
     
     @objc func swipeFunc(gesture: UISwipeGestureRecognizer){

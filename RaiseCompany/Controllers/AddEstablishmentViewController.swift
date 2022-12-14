@@ -1,10 +1,3 @@
-//
-//  AddEstablishmentViewController.swift
-//  RaiseCompany
-//
-//  Created by mei_yocontrolo on 13/12/2022.
-//
-
 import UIKit
 
 class AddEstablishmentViewController: UIViewController {
