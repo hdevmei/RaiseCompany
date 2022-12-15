@@ -77,6 +77,7 @@
 				AF4F7C112948001800769810 /* Delegate */,
 				AF4F7C132948012100769810 /* Model */,
 				AF4F7C102947FFD800769810 /* Controllers */,
+				AF4F7C122948010000769810 /* Views */,
 				AF3ED718293B800300D0CD96 /* Assets.xcassets */,
 				AF3ED71A293B800300D0CD96 /* LaunchScreen.storyboard */,
 				AF7A731129494338002A1E79 /* Main.storyboard */,
@@ -95,7 +96,6 @@
 				AFBB9DD62947ED7900652543 /* AddEmployeeViewController.swift */,
 				AFBB9DD82947EDCB00652543 /* AddDepartmentViewController.swift */,
 				AFBB9DD42947EC1000652543 /* AddEstablishmentViewController.swift */,
-				AF4F7C122948010000769810 /* Views */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";

@@ -21,9 +21,9 @@ class HomeViewController: UIViewController {
     }
     
     
+
     override func viewDidLoad(){
         super.viewDidLoad()
-        
         
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(swipeFunc(gesture: )))
         swipeRight.direction = .right
@@ -35,8 +35,18 @@ class HomeViewController: UIViewController {
         self.view.addGestureRecognizer(swipeLeft)
     }
     
-    
+
     @IBAction func SegmentedControl(_ sender: UISegmentedControl) {
+        sender.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.4).cgColor
+        sender.layer.shadowOffset = CGSize(width: 2.0, height: 6.0)
+        sender.layer.shadowOpacity = 1
+        sender.layer.masksToBounds = false
+        
+        
+     
+
+        
+        
         
         if sender.selectedSegmentIndex == 0 {
             establishmentsView.isHidden = false

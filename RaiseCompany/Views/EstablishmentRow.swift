@@ -9,6 +9,9 @@ class EstablishmentRow: UITableViewCell{
     @IBOutlet weak var location: UILabel!
 
     @IBOutlet weak var numberEmployees: UILabel!
-
+    
+    @IBOutlet weak var background: UIView!
     
 }
+
+

@@ -10,7 +10,6 @@ class EstablishmentsViewController: UIViewController, UITableViewDataSource, UIT
     
     
     
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let establishmentCell : EstablishmentRow = tableView.dequeueReusableCell(withIdentifier: "EstablishmentCell", for: indexPath) as! EstablishmentRow
@@ -18,25 +17,32 @@ class EstablishmentsViewController: UIViewController, UITableViewDataSource, UIT
         
         let establishment = DataManager.establishments[indexPath.row]
         
-    
+        
         establishmentCell.imageEstablishmnet.image = UIImage(named: establishment.image)
         establishmentCell.imageEstablishmnet.layer.cornerRadius = 10
-
+        
         establishmentCell.location.text = establishment.location
         
-
+        establishmentCell.numberEmployees.text = String(establishment.nEmployees) + " Employees"
+        
+        
+        establishmentCell.background.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.4).cgColor
+        establishmentCell.background.layer.shadowOffset = CGSize(width: 2.0, height: 6.0)
+        establishmentCell.background.layer.shadowOpacity = 1
+        establishmentCell.background.layer.masksToBounds = false
+        establishmentCell.background.layer.cornerRadius = 15
         
         return establishmentCell
     }
     
-     
-     
-
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         establishmentsList.dataSource = self
         establishmentsList.delegate = self
     }
-
-
+    
+    
 }
