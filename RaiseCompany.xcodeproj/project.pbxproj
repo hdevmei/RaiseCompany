@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF283D40296E1BB7005DA4E5 /* DetailedEstablishmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF283D3F296E1BB7005DA4E5 /* DetailedEstablishmentViewController.swift */; };
 		AF3ED710293B800300D0CD96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ED70F293B800300D0CD96 /* AppDelegate.swift */; };
 		AF3ED712293B800300D0CD96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ED711293B800300D0CD96 /* SceneDelegate.swift */; };
 		AF3ED714293B800300D0CD96 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ED713293B800300D0CD96 /* HomeViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF283D3F296E1BB7005DA4E5 /* DetailedEstablishmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedEstablishmentViewController.swift; sourceTree = "<group>"; };
 		AF3ED70C293B800300D0CD96 /* RaiseCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiseCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3ED70F293B800300D0CD96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF3ED711293B800300D0CD96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		AF3ED70E293B800300D0CD96 /* RaiseCompany */ = {
 			isa = PBXGroup;
 			children = (
+				AF283D3F296E1BB7005DA4E5 /* DetailedEstablishmentViewController.swift */,
 				AF4F7C112948001800769810 /* Delegate */,
 				AF4F7C132948012100769810 /* Model */,
 				AF4F7C102947FFD800769810 /* Controllers */,
@@ -207,6 +210,7 @@
 				AF7A61AB294166F800562FE4 /* DataManager.swift in Sources */,
 				AF3ED72A293BC95100D0CD96 /* Establishment.swift in Sources */,
 				AF3ED710293B800300D0CD96 /* AppDelegate.swift in Sources */,
+				AF283D40296E1BB7005DA4E5 /* DetailedEstablishmentViewController.swift in Sources */,
 				AFBB9DD52947EC1000652543 /* AddEstablishmentViewController.swift in Sources */,
 				AF3ED712293B800300D0CD96 /* SceneDelegate.swift in Sources */,
 			);
